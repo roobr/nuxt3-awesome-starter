@@ -14,17 +14,40 @@ export default defineAppConfig({
       page: {
         navbar: {
           menus: [
-            { type: 'link', title: 'Blank', to: { name: 'blank' } },
-            { type: 'link', title: 'Post', to: { name: 'post' } },
-            { type: 'link', title: 'Test', to: { name: 'test' } },
+            {
+              type: 'link',
+              title: 'Sales Dashboard',
+              to: { name: 'salesDashboard' },
+            },
+            {
+              type: 'link',
+              title: 'Agency Dashboard',
+              to: { name: 'agencyDashboard' },
+            },
+            { type: 'link', title: 'Products', to: { name: 'products' } },
             {
               type: 'dropdown',
-              title: 'Documentations',
+              title: 'Sales Tools',
               children: [
                 {
                   type: 'link',
-                  title: 'Components',
-                  to: { name: 'docs-components' },
+                  title: 'Audio',
+                  to: { name: 'sales_tools-audio' },
+                },
+                {
+                  type: 'link',
+                  title: 'Video',
+                  to: { name: 'sales_tools-video' },
+                },
+                {
+                  type: 'link',
+                  title: 'Lighting',
+                  to: { name: 'sales_tools-lighting' },
+                },
+                {
+                  type: 'link',
+                  title: 'Rigging',
+                  to: { name: 'sales_tools-rigging' },
                 },
               ],
             },
