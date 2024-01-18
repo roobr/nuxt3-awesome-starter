@@ -52,14 +52,30 @@ const showDrawer = ref(false)
           <!-- <AwesomeLink class="text-gray-400 hover:text-gray-100">
             <Icon name="la:language" />
           </AwesomeLink> -->
+          <!-- <AwesomeLink
+            v-if="awesome?.project?.links?.github"
+            class="dark:text-gray-400 text-gray-600"
+            :href="awesome?.project?.links?.github"
+            >
+            <Icon name="mdi:github-face" />test
+          </AwesomeLink> -->
+          <span class="text-gray-900 dark:text-gray-100 font-bold"
+          >login/signup</span
+          >
+        </div>
+        <div class="pl-4 flex space-x-3 text-xl">
           <LayoutPageNavbarDropdownThemeSwitcher />
-          <AwesomeLink
+          <!-- todo: feat/localization -->
+          <!-- <AwesomeLink class="text-gray-400 hover:text-gray-100">
+            <Icon name="la:language" />
+          </AwesomeLink> -->
+          <!-- <AwesomeLink
             v-if="awesome?.project?.links?.github"
             class="dark:text-gray-400 text-gray-600"
             :href="awesome?.project?.links?.github"
           >
-            <Icon name="mdi:github-face" />
-          </AwesomeLink>
+            <Icon name="mdi:github-face" />test
+          </AwesomeLink> -->
         </div>
       </div>
       <!-- drawer:btn -->
