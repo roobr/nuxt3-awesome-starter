@@ -1,15 +1,15 @@
 {
-  "name": "@nuxt-awesome/theme",
-  "version": "2.0.12",
-  "description": "a Nuxt 3 template and boilerplate with a lot of useful features. Nuxt 3 + Tailwindcss + Nuxt Layer",
-  "author": "viandwi24",
-  "private": false,
+  "name": "roobr_hth",
+  "version": "0.0.1",
+  "description": "hth productions app",
+  "author": "roobr",
+  "private": true,
   "license": "MIT",
   "type": "module",
   "main": "./nuxt.config.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
+    "url": "git://github.com/roobr/roobr_hth"
   },
   "files": [
     "assets",
@@ -46,6 +46,8 @@
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0",
+    "vue": "3.4.14",
+    "vue-router": "latest",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.6.1",
     "pinia": "^2.1.7",
@@ -61,7 +63,7 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "nuxt": "^3.8.0",
+    "nuxt": "^3.9.3",
     "prettier": "^3.0.3",
     "release-it": "^16.2.1",
     "serve": "^14.2.1",
